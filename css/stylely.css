@@ -1,0 +1,24 @@
+table, td, th, tr{
+    border: 1px grey;
+    border-collapse: collapse;
+    padding: 5px;
+    
+    
+    
+    
+}
+
+th{
+    background-color: green;
+    color: white;
+}
+
+.tr1{
+    background-color: blueviolet;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(196, 196, 196);
+}
+
+

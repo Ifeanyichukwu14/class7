@@ -1,0 +1,54 @@
+body{
+    background-color: white;
+}
+
+.Tab1{
+    border: 1px;
+    width: 1000px;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.Tab1 th{
+    background-color: red;
+    color: white;
+}
+
+td{
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+.Tab2{
+    border: 1px;
+    width: 1000px;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.Tab2 th{
+    background-color: green;
+    color: white;
+}
+
+
+
+.Tab3 th{
+    background-color: blue;
+    color: white;
+}
+
+
+
+.Tab3{
+    border: 1px;
+    width: 1000px;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+tr:nth-child(odd){
+    background-color: darkgray;
+}
